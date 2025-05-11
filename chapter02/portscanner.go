@@ -13,6 +13,7 @@ func main() {
 			if err != nil {
 				panic(err)
 			}
+			// successful connection
 			conn.Close()
 			fmt.Printf("%d open\n", port)
 		}(port)
